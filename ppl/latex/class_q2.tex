@@ -1,0 +1,74 @@
+\hypertarget{class_q2}{}\section{Q2 Class Reference}
+\label{class_q2}\index{Q2@{Q2}}
+
+
+{\ttfamily \#include $<$Q2.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_q2_a19f2544bdcec6fb6b996e8e27fd99356}{Form\+Basket} (\hyperlink{class_boy}{Boy} b, \hyperlink{class_girl}{Girl} g, vector$<$ \hyperlink{class_gift}{Gift} $>$ \&gtlist, int $\ast$value1, int $\ast$value2)
+\item 
+void \hyperlink{class_q2_a6baeed978551480ee40506ae4b3544f1}{Solve} (vector$<$ \hyperlink{class_boy}{Boy} $>$ \&boylist, vector$<$ \hyperlink{class_girl}{Girl} $>$ \&girllist, vector$<$ pair$<$ \hyperlink{class_girl}{Girl}, \hyperlink{class_boy}{Boy} $>$ $>$ \&couple, vector$<$ \hyperlink{class_gift}{Gift} $>$ \&gtlist)
+\item 
+int \hyperlink{class_q2_a43e1ed8a23b71bbe4dc9eaca49884f93}{Compatibility} (\hyperlink{class_boy}{Boy} b, \hyperlink{class_girl}{Girl} g)
+\item 
+void \hyperlink{class_q2_a382695d221810b142f74af197648e5d7}{Bubble} (vector$<$ pair$<$ int, pair$<$ string, string $>$ $>$ $>$ \&v1)
+\item 
+void \hyperlink{class_q2_afbea2d03fc8cc238a08eaf07697d2ec5}{print} (vector$<$ pair$<$ int, pair$<$ string, string $>$ $>$ $>$ \&v1)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+$<$This class contains Functions which calculate compatibility and Happiness 
+
+\subsection{Member Function Documentation}
+\index{Q2@{Q2}!Bubble@{Bubble}}
+\index{Bubble@{Bubble}!Q2@{Q2}}
+\subsubsection[{\texorpdfstring{Bubble(vector$<$ pair$<$ int, pair$<$ string, string $>$ $>$ $>$ \&v1)}{Bubble(vector< pair< int, pair< string, string > > > &v1)}}]{\setlength{\rightskip}{0pt plus 5cm}void Q2\+::\+Bubble (
+\begin{DoxyParamCaption}
+\item[{vector$<$ pair$<$ int, pair$<$ string, string $>$ $>$ $>$ \&}]{v1}
+\end{DoxyParamCaption}
+)}\hypertarget{class_q2_a382695d221810b142f74af197648e5d7}{}\label{class_q2_a382695d221810b142f74af197648e5d7}
+function is used for sorting \index{Q2@{Q2}!Compatibility@{Compatibility}}
+\index{Compatibility@{Compatibility}!Q2@{Q2}}
+\subsubsection[{\texorpdfstring{Compatibility(\+Boy b, Girl g)}{Compatibility(Boy b, Girl g)}}]{\setlength{\rightskip}{0pt plus 5cm}int Q2\+::\+Compatibility (
+\begin{DoxyParamCaption}
+\item[{{\bf Boy}}]{b, }
+\item[{{\bf Girl}}]{g}
+\end{DoxyParamCaption}
+)}\hypertarget{class_q2_a43e1ed8a23b71bbe4dc9eaca49884f93}{}\label{class_q2_a43e1ed8a23b71bbe4dc9eaca49884f93}
+calulates compatibility \index{Q2@{Q2}!Form\+Basket@{Form\+Basket}}
+\index{Form\+Basket@{Form\+Basket}!Q2@{Q2}}
+\subsubsection[{\texorpdfstring{Form\+Basket(\+Boy b, Girl g, vector$<$ Gift $>$ \&gtlist, int $\ast$value1, int $\ast$value2)}{FormBasket(Boy b, Girl g, vector< Gift > &gtlist, int *value1, int *value2)}}]{\setlength{\rightskip}{0pt plus 5cm}void Q2\+::\+Form\+Basket (
+\begin{DoxyParamCaption}
+\item[{{\bf Boy}}]{b, }
+\item[{{\bf Girl}}]{g, }
+\item[{vector$<$ {\bf Gift} $>$ \&}]{gtlist, }
+\item[{int $\ast$}]{value1, }
+\item[{int $\ast$}]{value2}
+\end{DoxyParamCaption}
+)}\hypertarget{class_q2_a19f2544bdcec6fb6b996e8e27fd99356}{}\label{class_q2_a19f2544bdcec6fb6b996e8e27fd99356}
+Funtioo forms Basket and return happiness of Both couples \index{Q2@{Q2}!print@{print}}
+\index{print@{print}!Q2@{Q2}}
+\subsubsection[{\texorpdfstring{print(vector$<$ pair$<$ int, pair$<$ string, string $>$ $>$ $>$ \&v1)}{print(vector< pair< int, pair< string, string > > > &v1)}}]{\setlength{\rightskip}{0pt plus 5cm}void Q2\+::print (
+\begin{DoxyParamCaption}
+\item[{vector$<$ pair$<$ int, pair$<$ string, string $>$ $>$ $>$ \&}]{v1}
+\end{DoxyParamCaption}
+)}\hypertarget{class_q2_afbea2d03fc8cc238a08eaf07697d2ec5}{}\label{class_q2_afbea2d03fc8cc238a08eaf07697d2ec5}
+prints k happiest couples and also compatabile couples \index{Q2@{Q2}!Solve@{Solve}}
+\index{Solve@{Solve}!Q2@{Q2}}
+\subsubsection[{\texorpdfstring{Solve(vector$<$ Boy $>$ \&boylist, vector$<$ Girl $>$ \&girllist, vector$<$ pair$<$ Girl, Boy $>$ $>$ \&couple, vector$<$ Gift $>$ \&gtlist)}{Solve(vector< Boy > &boylist, vector< Girl > &girllist, vector< pair< Girl, Boy > > &couple, vector< Gift > &gtlist)}}]{\setlength{\rightskip}{0pt plus 5cm}void Q2\+::\+Solve (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf Boy} $>$ \&}]{boylist, }
+\item[{vector$<$ {\bf Girl} $>$ \&}]{girllist, }
+\item[{vector$<$ pair$<$ {\bf Girl}, {\bf Boy} $>$ $>$ \&}]{couple, }
+\item[{vector$<$ {\bf Gift} $>$ \&}]{gtlist}
+\end{DoxyParamCaption}
+)}\hypertarget{class_q2_a6baeed978551480ee40506ae4b3544f1}{}\label{class_q2_a6baeed978551480ee40506ae4b3544f1}
+Helper function 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Q2.\+h\item 
+Q2.\+cpp\end{DoxyCompactItemize}
