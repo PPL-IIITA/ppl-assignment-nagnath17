@@ -11,5 +11,6 @@ Test files Used for testing are included
 
 log of events is maintained in logfile.txt
 
-Documentation Included
+Documentation Included In PPL Folder
+RUN index.html
  
