@@ -1,6 +1,8 @@
 #include "Girl.h"
 #include <string>
 /*This class stores attributes of Girls*/
+
+
 Girl::Girl (std::string name, int attractiveness,int budget,int intelligence,int criterion,std::string type) {
 
 	this->name = name;
